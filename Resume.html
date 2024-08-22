@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: antiquewhite;">
+    
+
+
+    <script>
+
+var h1_cre=document.createElement("h1");
+h1_cre.innerText="SHARATH KUMAR";
+var h1_center=document.createElement("center");
+h1_center.appendChild(h1_cre);
+
+var img_cre=document.createElement("img")
+img_cre.src="hr.jpg";
+img_cre.width="150";
+img_cre.height="75";
+img_cre.style.float="right";
+
+var h6_cre=document.createElement("h4");
+h6_cre.innerText="Email:sharathkumar3503@gmail.com";
+
+var h6_cre1=document.createElement("h4");
+h6_cre1.innerText="PhNo:91xxxxxx92";
+
+var hr=document.createElement("hr");
+
+var fieldset_cre=document.createElement("fieldset");
+var Legend_cre=document.createElement("legend");
+Legend_cre.innerText="Career Objective:";
+var p_cre=document.createElement("p");
+p_cre.innerText="As a passionate and hard-working student with a strong interest in programming and software development, I am eager to bring my skills and experiences to a challenging and dynamic role in the industry. I believe that my unique background in electrical and electronics engineering provides me with a strong foundation to excel in this field.";
+fieldset_cre.append(Legend_cre,p_cre);
+
+var div_cre1=document.createElement("div")
+var h3_cre1=document.createElement("h3");
+h3_cre1.innerText="Technical Skills:";
+var li_cre1=document.createElement("li");
+li_cre1.innerText="HTML";
+var li_cre2=document.createElement("li");
+li_cre2.innerText="CSS";
+var li_cre3=document.createElement("li");
+li_cre3.innerText="Javascript";
+var li_cre4=document.createElement("li");
+li_cre4.innerText="Python";
+var ol_cre=document.createElement("ol");
+ol_cre.append(li_cre1,li_cre2,li_cre3,li_cre4);
+div_cre1.append(h3_cre1,ol_cre);
+div_cre1.style.width="500px"
+
+var div_cre2=document.createElement("div")
+var h3_cre2=document.createElement("h3");
+h3_cre2.innerText="Hobbies:";
+var li_cre5=document.createElement("li");
+li_cre5.innerText="Listen songs";
+var li_cre6=document.createElement("li");
+li_cre6.innerText="Playing Indoor and Outdoor games";
+var li_cre7=document.createElement("li");
+li_cre7.innerText="Watching movies";
+var ul_cre=document.createElement("ul");
+ul_cre.append(li_cre5,li_cre6,li_cre7)
+div_cre2.append(h3_cre2,ul_cre);
+div_cre2.style.width="500px";
+
+var div_main=document.createElement("div")
+div_main.append(div_cre1,div_cre2);
+div_main.style.display="flex"
+div_main.style.width="900px"
+div_main.style.marginLeft="300px"
+
+
+var h3_cre3=document.createElement("h3");
+h3_cre3.innerText="DECLARATION:";
+var p_cre1=document.createElement("p");
+p_cre1.innerText="I hereby declare that all the above information is true to the best of my knowledge and belief."
+
+var hr_1=document.createElement("hr");
+
+h3_cre4=document.createElement("h3")
+
+
+var div_cre3=document.createElement("div")
+var h3_cre5=document.createElement("h3");
+h3_cre5.innerText="Signature:";
+img_cre1=document.createElement("img")
+img_cre1.src="sign.jpg"
+img_cre1.width="200"
+div_cre3.append(h3_cre5,img_cre1)
+
+
+document.body.append(h1_center,img_cre,h6_cre,h6_cre1,hr,fieldset_cre,div_main,p_cre1,hr_1,h3_cre4,div_cre3);
+    </script>
+</body>
+</html>
